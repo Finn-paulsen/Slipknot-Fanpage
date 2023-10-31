@@ -22,10 +22,12 @@ header {
 
 /* Logo-Styling */
 #logo {
-    width: 576px;
-    height: 254px;
-    margin: 20px;
-    border: 1px solid red;
+    width: 200px;
+    height: 87px;
+    margin: 10px;
+    border: none;
+    background-image: url('https://slipknot1.com/wp-content/uploads/2023/10/Logo-redstroke.png');
+    background-size: cover;
 }
 
 #menu-icon {
@@ -227,3 +229,43 @@ footer {
 .clear {
     clear: both;
 }
+
+/*Diskografie Bereich*/
+.discography {
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  .discography h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .discography .albums {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .discography .albums li {
+    width: 33.333%;
+    margin-bottom: 20px;
+  }
+  
+  .discography .albums li a {
+    display: block;
+    text-align: center;
+  }
+  
+  .discography .albums li a img {
+    width: 100%;
+  }
+  
+  .discography .albums li a h3 {
+    font-size: 18px;
+  }
+  
+  .discography .albums li a p {
+    font-size: 14px;
+  }
