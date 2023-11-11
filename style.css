@@ -2,6 +2,7 @@
 body, p, h1, h2, h3, ul, li, a {
     font-family: 'Masken', Arial, sans-serif;
     color: #fff;
+
 }
 
 body {
@@ -10,6 +11,7 @@ body {
     background-color: #333;
     background-image: url('https://wallpapers.com/images/hd/slipknot-logo-with-hands-reaching-26xg0me84f7jtnad.jpg');
     background-size: cover;
+    cursor: url("https://slipknot-world.netlify.app/pommesgabel-removebg-preview.png"), pointer;
 }
 
 /* Header-Styling */
@@ -301,4 +303,3 @@ footer {
   .discography .singles li a p {
     font-size: 14px;
   }
-  
